@@ -30,7 +30,7 @@ const PrimaryNavbar = () => {
                     <div className=" flex items-center  gap-5">
                     <div className='hidden lg:flex items-center list-none gap-x-10 text-customBlack font-medium'>
                         {headerRoutes?.map((item) => 
-                             <li key={item?.id}>{ item?.name}</li>
+                             <li key={item?.id} className='cursor-pointer'>{ item?.name}</li>
                          )}
 
                          <Button title='Donate' className='bg-customBlack text-white'/>

@@ -21,7 +21,7 @@ const Contribute = () => {
                 <p className='pt-6 text-[#525560]'>Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.</p>
                 </div>
             </div>
-            <hr className='my-10'/>
+            <hr className='my-20'/>
             <div className=' grid grid-cols-1 lg:grid-cols-3 gap-10'>
                 <p className='text-2xl md:text-3xl xl:text-5xl font-bold '>How we use your donation</p>
                 <p className='px-10 text-[#525560]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.  Nunc ut sem vitae risus tristique posuere.</p>

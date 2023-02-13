@@ -14,7 +14,7 @@ const MobileScreen = () => {
         
                 <ul className="items-start gap-y-3 flex flex-col px-10 space-y-2">
                         {headerRoutes?.map((item) => 
-                             <li key={item?.id} className="text-customBlack">{item?.name}</li>
+                             <li key={item?.id} className="text-customBlack cursor-pointer">{item?.name}</li>
                          )}
 
                         <Button title='Donate' className='bg-customBlack text-white'/>
