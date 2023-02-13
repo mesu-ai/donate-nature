@@ -1,14 +1,8 @@
-import React, { useState } from 'react';
+import React from 'react';
 import Button from '../atoms/Button';
 
 
 const Contribute = () => {
-    const [active,setActive] =useState('active');
-
-
-
-
-
 
     return (
         <div className='px-4 lg:px-10 py-[96px] container mx-auto'>

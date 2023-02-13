@@ -3,15 +3,7 @@ import Button from '../atoms/Button';
 import contributeBg from '../../assets/images/contributeBg.png'
 
 const Environment = () => {
-
-    const myStyle={
-        backgroundImage: "url('../../assets/images/contributeBg.png')",
-        height:'100vh',
-        marginTop:'-70px',
-        fontSize:'50px',
-        backgroundSize: 'cover',
-        backgroundRepeat: 'no-repeat',
-    }
+    
     return (
         <div className='px-4 lg:px-10 mx-auto container'>
             <div className='relative h-[250px] md:h-auto'>
