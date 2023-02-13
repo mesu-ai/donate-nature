@@ -4,8 +4,8 @@ import heroBanner from '../../assets/images/hero-banner.png';
 
 const HeroSection = () => {
   return (
-    <div className='bg-greenTertiary py-10 md:py-0 h-[576px] flex items-center'>
-      <div className='px-4 sm:px-10 container mx-auto my-auto grid grid-cols-1 md:grid-cols-3 gap-10 items-center'>
+    <div className='bg-greenTertiary py-10 md:py-0 min-h-[576px] flex items-center'>
+      <div className='px-4 lg:px-10 container mx-auto my-auto grid grid-cols-1 md:grid-cols-3 gap-10 items-center'>
         <div className='col-span-2 flex items-start gap-x-6 max-w-2xl 2xl:max-w-3xl'>
           <div className='mt-2.5'>
             <span>
